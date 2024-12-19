@@ -20,19 +20,24 @@ Before starting, ensure the following tools are installed:
 ```
 npm install
 ```
-## Create .env with blank
+## Create .env with default
+```
+OPENAI_API_KEY=
+WEATHER_API_KEY=
+```
 
 ## get OPENAI_API_KEY
 - open https://platform.openai.com/
 - register / login 
 - Generate key
 - paste key to .env
+- example: OPENAI_API_KEY=xxxx
 - Add model gpt-3.5-turbo
 
 ## get Scenario Smart Travel Planner for WEATHER_API_KEY
 - open https://www.weatherapi.com/ 
 - register and generate key
-- paste key to .env
+- paste key to .env example WEATHER_API_KEY=xxxxx
 
 ## run the script with
 ```
