@@ -14,7 +14,7 @@ Before starting, ensure the following tools are installed:
 
 # Install
 ## first clone the repo
-- https://github.com/idkraf/ai-chat-backend.git
+- git clone https://github.com/idkraf/ai-chat-backend.git
 
 ## On the folder 
 ```
@@ -39,11 +39,15 @@ npm install
 npm start
 ```
 - Make sure both the frontend and backend servers are running.
-
+- current backend with port 5000 and front with port 3000
 
 
 # Response Postman
-## 
+## Cek demo postman after you start the npm
+```
+https://grey-water-2999.postman.co/workspace/My-Workspace~713571d6-247b-4330-85ef-81647abcf30b/collection/5170792-e61cf429-3a6b-43d2-b704-bc24875e7f89?action=share&creator=5170792&active-environment=5170792-4f7e6bf3-d7b6-44d0-8e5e-5eb6f85ad894
+```
+
 ## sample body on chat in frontend
 ```
 {
